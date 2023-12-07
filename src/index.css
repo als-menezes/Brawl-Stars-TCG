@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://i.redd.it/e9yu7vlazvv31.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#card-preview {
+  font-family: 'Kanit', sans-serif;
+  border-radius: 2%;
+  width: 20em;
+  color: black;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#card-deck {
+  /* border: 5px double black; */
+  border-radius: 2%;
+  width: 10em;
+  height: 18em;
+  color: black;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-deck-size {
+  width: 10em;
+  height: 18em;
+}
+
+#deck-title {
+  text-align: center;
+  color: black;
+  font-size: 5em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  margin: 10%;
+}
+
+#card-stats {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 3px solid black;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  height: 15%;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+#card-stats-deck {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 3px solid black;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  height: 10%;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+#rare-card {
+  height: 5%;
+}
+
+#mega-brawler {
+  font-size: 2em;
+  text-align: center;
+  color: gold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  width: 95%;
+}
+
+#mega-brawler-deck {
+  font-size: 1.5em;
+  margin: 0;
+  /* height: 10%; */
+  text-align: center;
+  color: gold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  width: 95%;
+}
+
+#name_preview {
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  margin-top: 2%;
+  width: 95%;
+  text-align: center;
+  height: 14%;
+}
+
+#name_deck {
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  margin: 1%;
+  width: 95%;
+  text-align: center;
+  height: 18%;
+}
+
+#attack {
+  background-image: url('./images/attack-icon.png');
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  width: 25%;
+}
+
+#attack-deck {
+  background-image: url('./images/attack-icon.png');
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  width: 30%;
+  margin: 1%;
+  font-size: 1em;
+}
+
+#health {
+  background-image: url('./images/blood_drop.png');
+  background-size: 1.2em;
+  background-repeat: no-repeat;
+  width: 25%;
+}
+
+#health-deck {
+  background-image: url('./images/blood_drop.png');
+  background-size: 1.2em;
+  background-repeat: no-repeat;
+  width: 30%;
+  margin: 1%;
+  font-size: 1em;
+}
+
+#energy {
+  background-image: url('./images/energy.png');
+  background-size: 1.2em;
+  background-repeat: no-repeat;
+  width: 25%;
+}
+
+#energy-deck {
+  background-image: url('./images/energy.png');
+  background-size: 1.2em;
+  background-repeat: no-repeat;
+  width: 30%;
+  margin: 1%;
+  font-size: 1em;
+}
+
+#rule-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: black;
+  height: 50em;
+  background-image: url('https://www.pngkit.com/png/full/263-2631018_imagens-de-pergaminhos-em-png-papel-pergaminho-png.png');
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+  #card-preview {
+    width: 50%;
+    height: 20em;
+  }
+
+  #attack {
+    width: 33%;
+  }
+
+  #health {
+    width: 33%;
+  }
+
+  #energy {
+    width: 33%;
+  }
+
+  #rule-banner {
+    height: 35em;
+  }
+
+  #deck-title {
+    font-size: 3em;
+  }
+}
+
+#image_preview {
+  width: 95%;
+  object-fit: cover;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#form-section {
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  height: 80%;
+  margin: 5%;
+}
+
+
+
+#deck-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2%;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 5px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#remove-cardBTN {
+  width: 100%;
+}
+
+.golden-border {
+  border: 5px double goldenrod;
+}
+
+.card-bg1 {
+  border: 5px double black;
+
+  background: rgb(335, 335, 335);
+  background: radial-gradient(circle, rgba(335, 335, 335, 1) 0%, rgba(0, 335, 38, 1) 100%);
+}
+
+.card-bg2 {
+  border: 5px double black;
+  background: rgb(335, 335, 335);
+  background: radial-gradient(circle, rgba(335, 335, 335, 1) 0%, rgba(0, 121, 335, 1) 100%);
+}
+
+.card-bg3 {
+  border: 5px double black;
+
+  background: rgb(335, 335, 335);
+  background: radial-gradient(circle, rgba(335, 335, 335, 1) 0%, rgba(162, 0, 335, 1) 100%);
+}
+
+.card-bg4 {
+  border: 5px double black;
+
+  background: rgb(335, 335, 335);
+  background: radial-gradient(circle, rgba(335, 335, 335, 1) 0%, rgba(335, 0, 0, 1) 100%);
+}
+
+.card-bg5 {
+  border: 5px double black;
+
+  background: rgb(335, 335, 335);
+  background: radial-gradient(circle, rgba(335, 335, 335, 1) 0%, rgba(335, 222, 0, 1) 100%);
+}
+
+.card-bg6 {
+  border: 5px double black;
+
+  background: rgb(131, 58, 180);
+  background: linear-gradient(45deg, rgba(131, 58, 180, 1) 11%, rgba(333, 29, 29, 1) 42%, rgba(332, 241, 69, 1) 78%);
+}
+
+.box-model {
+  display: flex;
+}
+
+.box-column {
+  flex-direction: column;
+}
+
+.space-evenly {
+  justify-content: space-around;
+}
