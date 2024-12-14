@@ -1,6 +1,8 @@
 # Brawl Stars TCG  
 
-<img src="https://cdn.discordapp.com/attachments/759565230874689557/1195900347428917329/previewBS.png?ex=65b5abfd&is=65a336fd&hm=3d59ac5c4c850a29cda504c428000aac097ac1313722de2aedc6266ef3c5b351&" alt="Exemplo imagem">
+<img src="https://imgur.com/a/jUAmWrg" alt="Exemplo imagem">
+
+Disponível <a srs='https://brawl-stars-tcg.vercel.app/'>aqui.</a>
 
 
 Bem-vindos ao Brawl Stars TCG, o inovador Criador de Decks com a empolgante temática do universo Brawl Stars!
