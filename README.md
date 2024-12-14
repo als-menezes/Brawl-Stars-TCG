@@ -2,7 +2,7 @@
 
 <img src="https://imgur.com/a/jUAmWrg" alt="Exemplo imagem">
 
-Disponível <a srs='https://brawl-stars-tcg.vercel.app/'>aqui.</a>
+Disponível <a href='https://brawl-stars-tcg.vercel.app/'>aqui.</a>
 
 
 Bem-vindos ao Brawl Stars TCG, o inovador Criador de Decks com a empolgante temática do universo Brawl Stars!
