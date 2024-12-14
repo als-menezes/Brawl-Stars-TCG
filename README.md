@@ -1,6 +1,6 @@
 # Brawl Stars TCG  
 
-<img src="https://imgur.com/a/jUAmWrg" alt="Exemplo imagem">
+<img src="[https://imgur.com/a/jUAmWrg](https://i.imgur.com/JZdnrSy.png)" alt="Exemplo imagem">
 
 Disponível <a href='https://brawl-stars-tcg.vercel.app/' target="_blank">aqui.</a>
 
